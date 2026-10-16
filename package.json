@@ -1,0 +1,19 @@
+{
+  "name": "spacetime",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Interactive calculators for every chapter of Levenspiel's Chemical Reaction Engineering, 3rd edition",
+  "author": "Harsh Rawat",
+  "scripts": {
+    "build": "node build.js",
+    "test": "node test/t_num.js && node test/run_tools.js"
+  },
+  "dependencies": {
+    "@fontsource/atkinson-hyperlegible-mono": "^5.3.0",
+    "@fontsource/atkinson-hyperlegible-next": "^5.3.0",
+    "@fontsource/b612-mono": "^5.3.0",
+    "@fontsource/big-shoulders-display": "^5.3.0",
+    "@fontsource/big-shoulders-stencil-display": "^5.3.0",
+    "katex": "^0.16.11"
+  }
+}
